@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background-color: rgb(39, 114, 234);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.div-logo-pagina{
+    margin-left: 3%;
+    margin-top: 10px;
+}
+.div-form{
+    margin-right: 3%;
+    margin-top: 10px;
+}
+span{
+    font-weight: bold;
+    text-decoration: underline;
+}
+p{
+    font-size: 10px;
+    font-weight: bold;
+}
+.section-contenedor{
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+    display: flex;
+}
+.div-contenedor-imagen{
+    
+    margin-top: 1%;
+    width: 13%;
+}
+.div-contenedor-boton{
+    width: 50px;
+    margin-top: 13%;
+    margin-left: 68%;
+}
+.section-contenedor2{
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+}

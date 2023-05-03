@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+    </style>
+    <title>Globo</title>
+</head>
+
+<body>
+    <header>
+        <div class="div-logo-pagina">
+            <img src="./logo.png" alt="logo" width="40%">
+        </div>
+    </header>
+
+    <main>
+        <section class="section-contenedor">
+            <div class="div-contenedor-imagen">
+                <img src="./fotoPerfil.jpg" width="100%" style="border-radius: 50%" alt="">
+            </div>
+
+            <div>
+                <h3>Jane Doe</h3>
+                <p><span>Email: </span>jane_doe@email.com</p>
+                <p><span>Fecha de nacimiento: </span>01/05/1996</p>
+                <p><span>Telefono: </span>918-936-9585</p>
+                <p><span>Ciudad: </span> Tokyo, Japon</p>
+                <p>Trabajando en <span>Lawn N</span></p>
+            </div>
+
+            <div class="div-contenedor-boton">
+                <button id="boton-seguir" class="btn btn-primary" style="width: 150px;">Seguir</button>
+            </div>
+        </section>
+
+        <section class="section-contenedor2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-8">
+                        <p>publicado hace 1 semana</p>
+                        <img src="./imagenPublicada.jpg" height="90%" width="66%" style="display: block;" alt="">
+                        <button id="boton-likes" type="button" class="btn btn-success">Me gusta</button>
+                        <label id="label-likes" for="boton-likes" style="margin-left: 45%; font-weight: bold;">200 likes</label>
+                        <h5 style="margin-top: 1%;">Comentarios</h5>
+                        <div id="div-comentarios">
+                            <p><span>Juan Perez</span> ¡Wow, esa foto de Tokyo es impresionante!</p>
+                            <p><span>Kathleen J Reennie</span> ¡Esta foto de Tokio es simplemente espectacular! Me trae
+                            tantos recuerdos.</p>
+                        </div>
+                        
+                        
+                        <form method="post">
+                            <div style="position: absolute; left: 80%; bottom: 94%;">
+                                <input  class="form-control" style="background-color: rgb(175, 255, 255);" type="text" name="usuario"
+                                        id="usuario-ingresado" placeholder="Ingresa tu usuario...">
+                            </div>
+                            <input  class="form-label" size="60"  display: inline;" type="text" name="textoIngresado"
+                            id="comentario-ingresado" placeholder="Deja tu comentario...">
+                            <div id="p-error">
+                            </div>
+                            <input id="boton-comentario" class="btn btn-primary" type="submit" value="Comentar">
+                        </form>
+                    </div>
+
+                    <div class="col-4"">
+                        <h4>Sobre mi</h4>
+                        <p style="font-size: 14px;">¡Hola a todos! Soy Jane, y actualmente vivo en la vibrante y emocionante ciudad de Tokio,
+                            Japon. Me encanta capturar la esencia de la vida urbana a traves de mi lente, explorando el
+                            contraste entre la arquitectura moderna y las tradicionas centenarias que conviven en esta
+                            metropolis unica. Desde rascacielos deslumbrantes y calles bulliciosas hasta templos serenos
+                            y jardines tranquilos, encuentro inspiracion en cada rincon de esta increible ciudad.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"></script>
+<script src="./index.js" defer></script>
+</html>
